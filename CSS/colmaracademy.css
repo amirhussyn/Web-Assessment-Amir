@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+}
+
+body {
+    margin: 0;
+}
+
+
+/* NAVBAR */
+.logo {
+    display: flex;
+    /* default flex direction: row */
+}
+
+.titleMenu {
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-self: center;
+    
+}
+
+nav a {
+    margin-left: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.navMobile {
+    display: none;
+}
+
+
+
+/* SECTION 1 */
+.section1 {
+    display: flex;
+    background-color: gainsboro;
+    padding: 32px 24px;
+}
+
+.section1-content {
+    padding-left: 4px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1-content h1 {
+    margin: 0;
+}  
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.section1-content a {
+    display: block;
+    background-color: rgb(51, 51, 51);
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.section1-content a:hover {
+    background-color: lightseagreen;
+}
+
+.section1 img {
+    width: 60%;    
+    padding-right: 20px;
+}
+
+
+/* SECTION 2 */
+.section2 {
+    display: flex;
+    background-color: white;      
+}
+
+.section2-left, .section2-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-left {
+    padding: 32px 24px;
+    width: 60%;    
+    justify-content: space-between;
+}
+
+.section2-left h1 {
+    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 24px;   
+}
+
+.section2-left p {
+    margin: 0;  
+}
+
+.section2-left h5 {
+    margin: 0;  
+    margin-top: 32px;
+}
+
+.section2-right {
+    margin-top: 16px;
+}
+
+.sidephoto {
+    width: 35%;
+}
+
+.sidephotoMobile {
+    display: none;
+}
+
+
+.mini-right {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.minitext {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    justify-content: center;
+}
+
+.minitext h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.minitext a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.minitext p {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navMobile {
+    display: none;
+}
+
+
+/* Section 3 */
+.section3 {
+    background-color: gainsboro;
+}
+
+.section3 h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.gridLearningRow1 {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+}
+
+.gridLearningRow2 {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 32px;
+    justify-content: center;
+}
+
+.gridContent {
+    background-color: #fff;
+    margin: 16px;
+}
+
+.gridContent img {
+    width: 100%;
+}
+
+.gridContent h3, .gridContent p {
+    margin: 0;
+}
+
+.courses {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 13px;
+}
+
+.courseDescription {   
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 13px;
+}
+
+.gridContent h3 {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* Section 4 */
+.thesisTitle {
+    text-align: center;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.section4 {
+    display: flex;
+    background-color: white;       
+}
+.section4-left, .section4-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-left {
+    padding: 32px 24px;
+    width: 60%;    
+}
+
+.section4-left h1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.section4-left p {
+    margin: 0;
+}
+
+.section4-right {
+    margin-top: 16px;
+}
+
+.sidephoto {
+    width: 35%;
+}
+
+.mini-right {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.minitext {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    justify-content: center;    
+}
+
+.minitext h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.minitext a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.minitext p {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    width: 60%;
+    padding: 16px 24px;
+}
+
+@media screen and (max-width: 800px){
+    
+    /* Section 1 Mobile */
+    .logo{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .navWeb{
+        display: none;
+    }
+    .navMobile{
+        display: block;
+    }
+    .section1{
+        flex-direction: column;
+        padding: 0;
+    }
+    .section1 img{
+        width: 100%;  
+        padding: 0;  
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .section1-content {
+        width: 100%;
+        padding: 32px 16px;
+    }
+    .section1-content a{
+        width: 100%;
+    }
+    .section1-content h3{
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+
+    /* Section 2 Mobile */
+    .section2-left{
+        display: none;
+    }
+    .section2-right{
+        margin-top: 0;
+        width: 100%;
+    }
+    .mini-right{
+        flex-direction: column;
+        padding-right: 16px;
+    }
+    .sidephoto{
+        display: none;
+    }
+    .sidephotoMobile{
+        display: block;
+    }
+    .minitext a{
+        padding-bottom: 32px;
+    }
+    .minitext h3{
+        padding-top: 64px;
+    }
+
+
+    /* Section 3 Mobile */
+    .section3 {
+        background-color: #fff;
+    }
+    .gridLearningRow1, .gridLearningRow2 {
+        flex-direction: column;
+        padding: 0;
+    }
+    .gridContent p, .gridContent img {
+        display: none;
+    }
+    .gridContent {
+        background-color: gainsboro;
+        margin: 0;
+        margin-top: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+        
+    }
+    .section3 h3 {
+        text-align: start;
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        padding-right: 16px;   
+    }
+    .section3 h1 {
+        padding-bottom: 8px;
+        padding-top: 16px;
+    }
+
+
+    /* Section 4 Mobile */
+    .section4-left h1, .section4-left p {
+        display: none;
+    }
+    .section4-right {
+        display: none;
+    }
+    .section4-left {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 16px;
+    }
+    .thesisTitle {
+        padding-top: 64px;
+    }
+
+
+    /* Footer */
+    footer p {
+        width: 100%;  
+    }
+}
+#academy {
+    color: grey;
+}
